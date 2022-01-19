@@ -1,4 +1,7 @@
 # 1 Кластер куба был развернут в AWS
+```
+eksctl create cluster  --name=test-k8s
+```
 # 2 - Установлен nginx в качестеве ингресс-контроллера
 ```
  https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-0.32.0/deploy/static/provider/aws/deploy.yaml
